@@ -63,6 +63,7 @@ export class ChartComponent implements OnInit, OnChanges, OnDestroy {
   @Input() title: ApexTitleSubtitle;
   @Input() subtitle: ApexTitleSubtitle;
   @Input() theme: ApexTheme;
+  @Input() forecastDataPoints: any;
 
   @Input() autoUpdateSeries = true;
 
